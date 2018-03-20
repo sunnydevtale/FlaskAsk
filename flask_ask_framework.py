@@ -3,7 +3,7 @@ from flask_ask import Ask, statement, question, session
 import datetime
 import requests
 import logging
-import os
+import os 
 
 app = Flask(__name__)
 ask = Ask(app, '/alexa_faskask')
